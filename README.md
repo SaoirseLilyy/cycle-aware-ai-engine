@@ -4,19 +4,13 @@ Machine-learning powered activity recommendations & menstrual-cycle–aware insi
 
 This microservice powers personalised movement guidance inside the **Rythma** app.
 
-It loads trained ML models (stored with **Git LFS**) and exposes a FastAPI endpoint returning daily recommendations.
+It loads trained ML models (not included in the repository due to size constraints) and exposes a FastAPI endpoint returning daily recommendations.
 
 ## Project Structure
 
 ```
 AI/
 ├── Dockerfile
-├── data/
-│   ├── health_fitness.csv
-│   └── latest.csv
-├── models/
-│   ├── fitted_pipeline.pkl
-│   └── rf_activity_87pct.pkl
 ├── notebooks/
 │   ├── 01_data_import_and_quality.ipynb
 │   ├── 02_feature_exploration_and_analysis.ipynb
